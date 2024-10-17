@@ -1,0 +1,51 @@
+/* Game Card */
+.game-card {
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+  opacity:1;
+}
+
+.game-card:hover {
+  transform: translateY(-10px);
+  transform: scale(1.5);
+}
+
+.game-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  padding: 0px;
+ 
+}
+:hover .game-image{
+  cursor: pointer;
+}
+.game-card h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.game-card p {
+  color: #888;
+}
+
+.play-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.play-button:hover {
+  background-color: #e64a19;
+}
+.title{
+color:white;}
